@@ -6,7 +6,7 @@
     font-size: 3rem;
   }
 .home{
-    background-image:url('/src/images/bg-01.jpg');
+    background-image:url('/src/images/Bg_border_wave-01.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -17,8 +17,38 @@
     font-size: 100px;
     bottom: 0px;
     top: 0%;
-    min-height: 300vh;
+    min-height: 630vh;
     width: 100%;
+  }
+
+  .discords--item{
+
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 4700px;
+    background-size: 100%;
+
+  }
+
+  .footer_item{
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 5200px;
+    background-size: 100%;
   }
   
  

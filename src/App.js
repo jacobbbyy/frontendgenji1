@@ -19,7 +19,7 @@ function App() {
           <Route path='/roadmap' component={RoadMap} />
           <Route path='/connectwallet' component={ConnectWallet} />
       </Switch>
-       <Footer/>
+   
     </Router>  
     </>
   )

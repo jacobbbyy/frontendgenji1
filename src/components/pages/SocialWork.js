@@ -1,17 +1,22 @@
 import React from 'react';
 import '../../App.css';
-import Border from '../Border';
 import HeroSection from '../HeroSection';
 import './SocialWork.css';
+import Discord from '../Discord';
+import Footer from '../Footer';
 
 function SocialWork() {
     return (
         <>
-           <div className='socialwork'>
-           <Border>
-            
-            </Border>
-              </div>   
+           <div className='socialwork'>  
+             <div className='discords--item'>
+             <Discord/>
+             </div> 
+             <div className='footer_item'>
+              <Footer/> 
+             </div>
+
+           </div> 
         </>
     );
 }

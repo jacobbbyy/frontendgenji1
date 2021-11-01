@@ -1,0 +1,48 @@
+.discord--container {
+    background-color: transparent;
+    background-image: url(/src/images/infobanner-01-01.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    
+    background-size: 100%;
+  
+}
+
+.discord-link{
+    display: flexbox;
+    position: absolute;
+    top: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 20px;
+    width: 50%;
+    margin-bottom: 24px;
+    padding: 24px;
+    color: rgb(17, 17, 17);
+}
+.discord-link> h2{
+    visibility: visible;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transition: opacity 0.8s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 0.8s cubic-bezier(0.5, 0, 0, 1) 0.2s;
+}
+
+.discord-link > p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    visibility: visible;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transition: opacity 0.8s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 0.8s cubic-bezier(0.5, 0, 0, 1) 0.5s;
+}
+

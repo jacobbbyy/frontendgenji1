@@ -1,6 +1,5 @@
 
 .hero__container {
-    background-image: url(/src/images/img-15.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -16,9 +15,7 @@
     background-size: 100%;
    
   }
-.hero__container > img{
 
-}
 .hero__heading {
   font-size: 100px;
   margin-bottom: 24px;

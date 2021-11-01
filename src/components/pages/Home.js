@@ -1,13 +1,17 @@
 import React from 'react';
-import '../../App.css';
-import Footer from '../Footer';
+import './Home.css';
+import Border from '../Border';
+import HeroSection from '../HeroSection';
 
 function Home() {
     return (
         <>
-           <div className='home'> 
-        
-           </div> 
+        <div className='home'> 
+            <Border>
+            <HeroSection/>
+            </Border>
+             
+        </div> 
         </>
     );
 }

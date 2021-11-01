@@ -1,0 +1,25 @@
+
+.border{
+    background-image:url('/src/images/bg_border-01.png');
+    background-color: transparent ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: absolute;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    bottom: 10px;
+    top: 0%;
+    min-height: 300vh;
+    width: 100%;
+    padding-top: 20px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-top: 20px solid transparent;
+
+ 
+
+  }

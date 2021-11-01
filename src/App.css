@@ -5,7 +5,7 @@
     font-family: 'PT Sans', sans-serif;
   }
   
-  .home,
+  
   .socialwork,
   .roadmap,
   .connectwallet {
@@ -15,53 +15,8 @@
     justify-content: center;
     font-size: 3rem;
   }
-  .home{
-    background-image:url('/src/images/bg_border-01.png'), url('/src/images/bg-01.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-position: fixed;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-    bottom: 0px;
-    top: 0%;
-    min-height: 300vh;
-    width: 100%;
-  }
   
-  .socialwork {
-    background-image:url('/src/images/bg_border-01.png'), url('/src/images/bg2-01.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-position: fixed;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-    bottom: 0px;
-    top: 0%;
-    min-height: 300vh;
-    width: 100%;
-  }
   
-  .roadmap {
-    background-image:url('/src/images/bg_border-01.png'), url('/src/images/bg3-01.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-position: fixed;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-    bottom: 0px;
-    top: 0%;
-    min-height: 300vh;
-    width: 100%;
-  }
   
   .connectwallet {
     background-image: url('/src/images/img-8.jpg');
@@ -72,3 +27,97 @@
     font-size: 100px;
   }
   
+
+  .hero-container {
+    background-size: 100%;
+    width: 100%;
+    height: 100%; 
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+
+  .hero-container > h1 {
+    color: #fff;
+    font-size: 100px;
+    margin-top: -350px;
+  }
+  
+  .hero-container > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .hero-btns {
+    margin-top: 32px;
+  }
+  
+  .hero-btns .btn {
+    margin: 6px;
+  }
+  
+  .fa-play-circle {
+    margin-left: 4px;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .hero-container > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+    }
+  }
+     .socialwork {
+       object-fit: cover;
+      
+     }
+
+     .roadmap{
+      object-fit: cover;
+      
+     }
+
+     .home{
+      object-fit: cover;
+      
+     }
+  
+  @media screen and (max-width: 768px) {
+    .hero-container > h1 {
+      font-size: 50px;
+      margin-top: -100px;
+    }
+  
+    .hero-container > p {
+      font-size: 30px;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+    .socialwork {
+      object-fit: cover;
+      min-height: 100vh;
+    }
+
+    .roadmap{
+     object-fit: cover;
+     min-height: 100vh;
+    }
+
+    .home{
+     object-fit: cover;
+     min-height: 100vh;
+    }
+  }

@@ -1,0 +1,18 @@
+.bottomborder{
+    background-image: url('/src/images/bottompattern-01.png');
+    background-color: transparent;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 2847px;
+    background-size: cover;
+    
+  
+}

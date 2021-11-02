@@ -48,40 +48,37 @@
 
   .page2--content
     {
-      background-size: 100% ;
-      background-repeat: no-repeat;
-      display: flex;
-      height: 629px;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      background-color: transparent;
+      font-size: 10px;
       position: absolute;
-      bottom: 0px;
+      top: 400px;
       right: 800px;
-      left: 50px;
-      top: 200px;
-      background-size: 100%;
-     
+      left: 90px;
+      display: grid;
+      grid-template-columns: 800px;
     }
   .hero--heading{
     font-size: 30px;
     margin-bottom: 24px;
-    color: #fff;
+    color: rgb(252, 252, 134);
   }
 
   .hero--description{
-    background: #ee0979; 
-    background: -webkit-linear-gradient(
-    to right,
-    #ff6a00,
-    #ee0979
-  ); 
-  background: linear-gradient(to right,#ff6a00, #ee0979); 
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -mo-text-fill-color: transparent;
+    background-color: transparent;
+    color: #000;
+    font-size: 15px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.hero--description>p{
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.page2--content>h1{
+  color: rgb(252, 252, 134);
   font-size: 30px;
 }
   

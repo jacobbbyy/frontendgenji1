@@ -14,12 +14,17 @@ function RoadMap() {
                <div className='phase--container'>
               <div className='header-roadmap'>
               <h1>ROADMAP:</h1>
-              <p>10% royalties will be imposed to the sale of Genji Nft, where 30% of the weekly royalties will 
-                 be accumulated for the reinvestment to further develop Genji Nft utility. 50% of the weekly 
-                 royalties will be distributed to the community wallet and holders will decide on what to do 
-                 with the funds. 20% of the weekly royalties will be given to the Genji Dev team.</p>
-                 <p>Holders of Genji Nft will enjoy early access to the next nft collections.</p>
-                 <p> Click for more info</p>
+              <p>The journey here at Genji begins with a range of community events such as fan art contest,
+twitter giveaways, Easter egg events and many more. Events will be continuously hosted up
+until mint day where 20% of profits will be placed in a Genji community wallet. Priority after
+mint-day would be to obtain secondary market listings to enable Genji to be traded. A 5%
+royalty fee will be imposed for every transaction made on secondary market listings and
+collective funds would be stored inside a community wallet. Devs will also work on setting up
+a DAO and enable holders of Genji to participate in the future developments through voting
+in Genji DAO. Furthermore, holders will also enjoy a range of Genji Token airdrops that will
+enable token collectors to spend it on our very own Genji Merch store, Gachapon or use as a
+vote in community polls.</p>
+                
                  
                   <div className='pre--phase'>
                    <h1>PRE-PHASE (Q3 2021)</h1>

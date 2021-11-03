@@ -1,0 +1,58 @@
+.tnc {
+    background-image: url('/src/images/Bg_tnc.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: absolute;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #f8f5b3;
+    font-size: 100px;
+    bottom: 0px;
+    top: 0%;
+    min-height: 350vh;
+    width: 100%;
+  }
+
+  .tnc--container {
+      padding-top: 200px;
+      padding-left: 400px;
+      font-size: 40px;
+      
+  }
+
+  .h1--container {
+      padding: 150px;
+      font-size: 20px;
+      color: #f8f5b3;
+  }
+
+  .h2--container {
+    padding: 150px;
+    font-size: 20px;
+    color: #f8f5b3;
+}
+
+.h3--container {
+    padding: 150px;
+    font-size: 20px;
+    color: #f8f5b3;
+}
+
+.h4--container {
+    padding: 150px;
+    font-size: 20px;
+    color: #f8f5b3;
+}
+
+.h5--container {
+    padding: 150px;
+    font-size: 20px;
+    color: #f8f5b3;
+}
+
+.h6--container {
+    padding: 150px;
+    font-size: 20px;
+    color: #f8f5b3;
+}

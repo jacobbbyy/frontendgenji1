@@ -11,12 +11,8 @@ function SocialWork() {
            <div className='socialwork'>  
              <div className='page2--content'>
                <h1 >Gachapan:</h1>
-             </div>
-             <div className='discords---item'>
-             <Discord/>
-             </div> 
-             <div className='footer___item'>
-              <Footer/> 
+               <p1>COMING </p1>
+               <p2>SOON</p2>
              </div>
 
            </div> 

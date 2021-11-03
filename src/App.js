@@ -7,6 +7,8 @@ import RoadMap from './components/pages/RoadMap';
 import ConnectWallet from './components/pages/ConnectWallet';
 import Home from './components/pages/Home';
 import Footer from './components/Footer';
+import GenjiMerch from './components/pages/GenjiMerch';
+import Tnc from './components/pages/Tnc';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route path='/socialwork' component={SocialWork} />
           <Route path='/roadmap' component={RoadMap} />
           <Route path='/connectwallet' component={ConnectWallet} />
+          <Route path='/genjimerch' component={GenjiMerch}/>
+          <Route path='/tnc' component={Tnc}/>
       </Switch>
    
     </Router>  

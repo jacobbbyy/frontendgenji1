@@ -59,16 +59,16 @@
   }
 
   .header-roadmap > h1{
-    color:rgb(252, 252, 134) ;
+   color: rgb(252, 252, 134);;
   }
 
   .phase--container{
     background-color: transparent;
     font-size: 10px;
     position: absolute;
-    top: 150px;
+    top: 250px;
     right: 800px;
-    left: 90px;
+    left: 150px;
     display: grid;
     grid-template-columns: 800px;
 
@@ -76,17 +76,19 @@
 
 
   .pre--phase{
-    background-color: rgba(20, 20, 20, 0.5);
-    color: #000;
+    background-color: rgba(20, 20, 20, 0.2);
+    color: #fff;
     font-size: 15px;
-    padding: 20px;
+    padding: 40px;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
+    
     
   }
 
   .pre--phase >h1{
-    color:rgb(252, 252, 134) ;
+    color: rgb(252, 252, 134); 
+    padding-bottom: 20px;
   }
   .pre--phase >p{
     padding-top: 5px;
@@ -94,16 +96,17 @@
   }
 
   .phase--1{
-    background-color: rgba(20, 20, 20, 0.5);
-    color: #000;
+    background-color: rgba(20, 20, 20, 0.2);
+    color: #fff;
     font-size: 15px;
-    padding: 20px;
+    padding: 40px;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
 
   }
   .phase--1 >h1{
-    color:rgb(252, 252, 134) ;
+    color: rgb(252, 252, 134);
+    padding-bottom: 20px;
   }
   .phase--1>p{
     padding-top: 5px;
@@ -111,25 +114,32 @@
 
   .phase--2{
     background-color: rgba(20, 20, 20, 0.2);
-    color: rgba(0, 0, 0, 0.342);
+    color: rgba(253, 253, 253, 0.342);
     font-size: 15px;
-    padding: 20px;
+    padding: 40px;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
 
   } 
+
+  .phase--2 >h1{
+    padding-bottom: 20px;
+  }
 
   .phase--2 >p{
     padding-top: 5px;
   }
   .phase--3{
     background-color: rgba(20, 20, 20, 0.2);
-    color: #000;
+    color: rgba(253, 253, 253, 0.342);
     font-size: 15px;
-    padding: 20px;
+    padding: 40px;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
 
+  }
+  .phase--3 >h1{
+    padding-bottom: 20px;
   }
 
   .phase--3>p{

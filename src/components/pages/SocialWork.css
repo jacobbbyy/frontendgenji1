@@ -72,9 +72,19 @@
     margin-top: 20px;
 }
 
-.hero--description>p{
-  padding-top: 10px;
-  font-size: 28px;
+.page2--content>p1{
+  padding-top: 200px;
+  padding-left: 600px;
+  font-size: 90px;
+  padding-right: 20px;
+  color: rgb(252, 252, 134);
+}
+.page2--content>p2{
+  padding-top: 20px;
+  padding-left: 650px;
+  font-size: 90px;
+  padding-right: 20px;
+  color: rgb(252, 252, 134);
 }
 
 .page2--content>h1{

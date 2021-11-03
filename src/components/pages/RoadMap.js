@@ -43,31 +43,25 @@ vote in community polls.</p>
 
                   <div className='phase--2'>
                   <h1>PHASE 2 (Q1 2022)</h1>
-                   <p>-Start up the recruitment for Solana Help Fund members
-                    (community vote & voluntary involvement of solana nft influencers)</p>
-                   <p>-Begin with the setting up of Genji DAO</p>
-                   <p>-Start working on Genji Merch</p>
-                   <p>-Mysterious Airdrop to holders (more details later)</p>
+                   <p>-Use first day sales royalties to buyback and
+                       giveaway Genji through community events</p>
+                   <p>-Start work on Genji DAO</p>
+                   <p>-Airdrop to holders (Genji Token)</p>
                    <p>-Ongoing partnerships with community voted solana projects and communities</p>
                   </div>
                   
                   <div className='phase--3'>
                   <h1>PHASE 3 (Q2 2022)</h1>
-                   <p>-First Solana Help Fund collaboration event </p>
-                   <p>-Release of Genji Merch and sales of merch (50% of merch profit goes to Genji DAO)</p>
-                   <p>-Increase future utility for Genji Nft (to be decided by Genji Dao)</p>
+                   <p>-First collaboration event </p>
+                   <p>-Genji Holders will get a mysterious airdrop compliments of Genji DAO</p>
+                   <p>-Increase future utility for Genji Nft (to be decided by Genji community) </p>
                    <p>-Official launch of Genji Nft online store</p>
                   </div>
 
               </div>
 
             </div>
-            <div className='discords-item'>
-             <Discord/>
-             </div> 
-             <div className='footer__item'>
-              <Footer/> 
-             </div>
+           
          
             </div>
          
